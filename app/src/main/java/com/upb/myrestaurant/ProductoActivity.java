@@ -113,8 +113,7 @@ public class ProductoActivity extends ListActivity {
             TextView precioProducto = (TextView) view.findViewById(R.id.textViewPrecio);
             precioProducto.setText(arregloProductos.get(position).precioProducto);
 
-
-            return null;
+            return view;
         }
     }
 }

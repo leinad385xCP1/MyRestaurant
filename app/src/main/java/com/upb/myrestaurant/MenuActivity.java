@@ -27,7 +27,7 @@ public class MenuActivity extends AppCompatActivity {
         listaCategorias.setAdapter(adaptadorLista);
     }
 
-    protected void onListItemClick (ListView lv, View v, int position, long id) {
+    public void onListItemClick (ListView lv, View v, int position, long id) {
 
 
         if (position == 0) {
