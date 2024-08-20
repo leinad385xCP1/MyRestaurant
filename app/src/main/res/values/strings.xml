@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="app_menu">"conoce nuestro menu"</string>
+    <string name="app_sede">"visita nuestras sedes"</string>
+    <string name="app_reserva">"realiza tu reserva"</string>
+    <string name="app_pedido">"realiza tu pedido"</string>
+
+    <string name="entrada1">"Sopas"</string>
+    <string name="entrada2">"Empanadas"</string>
+    <string name="entrada3">"patacones"</string>
+
+    <string name="ing_entrada1">"Sancocho, Consome Frijoles"</string>
+    <string name="ing_entrada2">"Carne, Pollo, Paisas"</string>
+    <string name="ing_entrada3">"Con Hogao, Guacamole"</string>
+
+    <string name="prec_entrada1">"10k"</string>
+    <string name="prec_entrada2">"8k"</string>
+    <string name="prec_entrada3">"12k"</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
