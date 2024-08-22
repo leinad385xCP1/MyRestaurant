@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#242424"
+    android:backgroundTint="#242424"
     tools:context=".MenuActivity">
 
     <ListView
