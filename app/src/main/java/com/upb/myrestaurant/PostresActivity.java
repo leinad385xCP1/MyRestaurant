@@ -1,7 +1,5 @@
 package com.upb.myrestaurant;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ListActivity;
 import android.content.Context;
 import android.os.Bundle;
@@ -14,7 +12,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class ProductoActivity extends ListActivity {
+public class PostresActivity extends ListActivity {
 
     public class Producto {
         private String nombreProducto;
@@ -42,26 +40,26 @@ public class ProductoActivity extends ListActivity {
 
         //entrada1
         Producto productoActual1 = new Producto();
-        productoActual1.nombreProducto = this.getResources().getString(R.string.entrada1);
-        productoActual1.ingredientesProducto = this.getResources().getString(R.string.ing_entrada1);
-        productoActual1.precioProducto =  this.getResources().getString(R.string.prec_entrada1);
-        productoActual1.imagenProducto = R.drawable.sopas;
+        productoActual1.nombreProducto = this.getResources().getString(R.string.postres1);
+        productoActual1.ingredientesProducto = this.getResources().getString(R.string.ing_postres1);
+        productoActual1.precioProducto =  this.getResources().getString(R.string.prec_postres1);
+        productoActual1.imagenProducto = R.drawable.payasito;
         arregloProductos.add(productoActual1);
 
         //entrada2
         Producto productoActual2 = new Producto();
-        productoActual2.nombreProducto = this.getResources().getString(R.string.entrada2);
-        productoActual2.ingredientesProducto = this.getResources().getString(R.string.ing_entrada2);
-        productoActual2.precioProducto =  this.getResources().getString(R.string.prec_entrada2);
-        productoActual2.imagenProducto = R.drawable.empanadas;
+        productoActual2.nombreProducto = this.getResources().getString(R.string.postres2);
+        productoActual2.ingredientesProducto = this.getResources().getString(R.string.ing_postres2);
+        productoActual2.precioProducto =  this.getResources().getString(R.string.prec_postres2);
+        productoActual2.imagenProducto = R.drawable.cono;
         arregloProductos.add(productoActual2);
 
         //entrada3
         Producto productoActual3 = new Producto();
-        productoActual3.nombreProducto = this.getResources().getString(R.string.entrada3);
-        productoActual3.ingredientesProducto = this.getResources().getString(R.string.ing_entrada3);
-        productoActual3.precioProducto =  this.getResources().getString(R.string.prec_entrada3);
-        productoActual3.imagenProducto = R.drawable.patacones;
+        productoActual3.nombreProducto = this.getResources().getString(R.string.postres3);
+        productoActual3.ingredientesProducto = this.getResources().getString(R.string.ing_postres3);
+        productoActual3.precioProducto =  this.getResources().getString(R.string.prec_postres3);
+        productoActual3.imagenProducto = R.drawable.malteada;
         arregloProductos.add(productoActual3);
 
     }

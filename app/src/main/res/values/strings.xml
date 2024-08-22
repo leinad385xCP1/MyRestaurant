@@ -5,7 +5,9 @@
     <string name="app_reserva">"realiza tu reserva"</string>
     <string name="app_pedido">"realiza tu pedido"</string>
 
-    <string name="entrada1">"Sopas"</string>
+    //entradas
+
+    <string name="entrada1">"sopas"</string>
     <string name="entrada2">"Empanadas"</string>
     <string name="entrada3">"patacones"</string>
 
@@ -16,6 +18,50 @@
     <string name="prec_entrada1">"10k"</string>
     <string name="prec_entrada2">"8k"</string>
     <string name="prec_entrada3">"12k"</string>
+
+
+    //platos fuertes
+
+    <string name="plato_fuerte1">"pizza terror"</string>
+    <string name="plato_fuerte2">"horror burger"</string>
+    <string name="plato_fuerte3">"phsycopat dogger"</string>
+
+    <string name="ing_plato_fuerte1">"pepperoni, hawaiana, vacia"</string>
+    <string name="ing_plato_fuerte2">"carne, pollo, solo pan"</string>
+    <string name="ing_plato_fuerte3">"salchicha, chorizo, de pan"</string>
+
+    <string name="prec_plato_fuerte1">"18k"</string>
+    <string name="prec_plato_fuerte2">"25k"</string>
+    <string name="prec_plato_fuerte3">"15k"</string>
+
+
+    //bebidas
+
+    <string name="bebidas1">"aguapanela"</string>
+    <string name="bebidas2">"mazamorra"</string>
+    <string name="bebidas3">"guandolo"</string>
+
+    <string name="ing_bebidas1">"con limon, sin limon, sin panela"</string>
+    <string name="ing_bebidas2">"bocadillo, blanqueado, sin nada"</string>
+    <string name="ing_bebidas3">"si"</string>
+
+    <string name="prec_bebidas1">"2k"</string>
+    <string name="prec_bebidas2">"4k"</string>
+    <string name="prec_bebidas3">"5k"</string>
+
+    //postres
+
+    <string name="postres1">"payasito"</string>
+    <string name="postres2">"cono"</string>
+    <string name="postres3">"malteada"</string>
+
+    <string name="ing_postres1">"vanilla, chocolate, vainilla chips"</string>
+    <string name="ing_postres2">"vainilla, brownie, ron con pasas"</string>
+    <string name="ing_postres3">"todos los sabores"</string>
+
+    <string name="prec_postres1">"8k"</string>
+    <string name="prec_postres2">"4k"</string>
+    <string name="prec_postres3">"10k"</string>
 
     <string name="title_activity_maps">MapsActivity</string>
 </resources>

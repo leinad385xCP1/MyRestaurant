@@ -1,7 +1,5 @@
 package com.upb.myrestaurant;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +7,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
-
-import com.google.android.gms.common.internal.constants.ListAppsActivityContract;
 
 public class MenuActivity extends ListActivity {
 
@@ -37,22 +33,22 @@ public class MenuActivity extends ListActivity {
 
         if (position == 0) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, EntradasActivity.class);
             startActivity(i);
         }
         if (position == 1) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, PlatoFuerteActivity.class);
             startActivity(i);
         }
         if (position == 2) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, BebidasActivity.class);
             startActivity(i);
         }
         if (position == 3) {
             Intent i;
-            i = new Intent(this, ProductoActivity.class);
+            i = new Intent(this, PostresActivity.class);
             startActivity(i);
         }
     }

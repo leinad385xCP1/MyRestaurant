@@ -39,16 +39,16 @@
             android:name=".ClienteActivity"
             android:exported="false" />
         <activity
-            android:name=".ReservaActivity"
+            android:name=".BebidasActivity"
             android:exported="false" />
         <activity
-            android:name=".PedidoActivity"
+            android:name=".PlatoFuerteActivity"
             android:exported="false" />
         <activity
-            android:name=".SedeActivity"
+            android:name=".PostresActivity"
             android:exported="false" />
         <activity
-            android:name=".ProductoActivity"
+            android:name=".EntradasActivity"
             android:exported="true">
         </activity>
         <activity
