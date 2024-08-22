@@ -2,6 +2,7 @@ package com.upb.myrestaurant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class MenuActivity extends AppCompatActivity {
+import com.google.android.gms.common.internal.constants.ListAppsActivityContract;
+
+public class MenuActivity extends ListActivity {
 
     private String [] categoriasProductos = new String[]{"Entradas" , "platos fuertes" , "Bebidas" , "postres"};
     private ListView listaCategorias = null;
@@ -27,8 +30,10 @@ public class MenuActivity extends AppCompatActivity {
         listaCategorias.setAdapter(adaptadorLista);
     }
 
-    public void onListItemClick (ListView lv, View v, int position, long id) {
+    protected void onListItemClick (ListView lv, View v, int position, long id) {
 
+
+        super.onListItemClick(lv, v, position, id);
 
         if (position == 0) {
             Intent i;
