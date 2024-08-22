@@ -9,19 +9,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
 
         <EditText
             android:id="@+id/editTextText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="53dp"
             android:ems="10"
-            android:fontFamily="serif"
+            android:fontFamily="monospace"
             android:inputType="text"
-            android:text="My Restaurant"
             android:textAlignment="center"
-            android:textSize="34sp"
-            android:typeface="sans"
+            android:textSize="48sp"
+            android:typeface="serif"
             tools:text="My Restaurant" />
 
         <ImageView
@@ -31,12 +36,20 @@
             app:srcCompat="@drawable/pizzahouse"
             tools:srcCompat="@drawable/pizzahouse" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="abrirMenu"
             android:text="@string/app_menu" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="41dp" />
 
         <Button
             android:id="@+id/button4"
@@ -45,17 +58,26 @@
             android:onClick="abrirSedes"
             android:text="@string/app_sede" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="222dp"
             android:layout_height="wrap_content"
             android:onClick="abrirReserva"
             android:text="@string/app_reserva" />
 
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
         <Button
             android:id="@+id/button2"
-            android:layout_width="wrap_content"
+            android:layout_width="222dp"
             android:layout_height="wrap_content"
+            android:onClick="abrirPedido"
             android:text="@string/app_pedido" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
